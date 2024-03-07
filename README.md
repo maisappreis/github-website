@@ -3,9 +3,7 @@
 ## My portfolio website developed with JavaScript and React framework.
 https://maisappreis.github.io/
 
-![image](https://github.com/maisappreis/github-website/assets/113925909/a7d887bd-3982-484e-8b20-cb62e57bccb3)
-
-
+![image](https://github.com/maisappreis/github-website/assets/113925909/df02ed35-a0cd-47b5-80ea-f52d29478d8d)
 
 ## 🛠️ Front-end Installation
 
