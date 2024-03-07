@@ -11,14 +11,15 @@ const About = props =>
                 <h3 className="about-subtitle">ABOUT ME</h3>
                 <hr className="line"/>
                 <p className="about-text">
-                    Innovative and task-driven professional with 2 years of experience in web
-                    design and development. I have solid knowledge of JavaScript and
-                    Vue.js framework. As a web developer, I have officially been in
-                    the job market for a year, but my learning and my first projects started
-                    a little over a year ago. I started my career in the administration area,
-                    working with finance, then I decided to start a business with 3D printing,
+                    Innovative and task-driven professional with 3 years of experience in web
+                    development. I have solid knowledge of Vue.js and React.js framework. I started
+                    my career in the administration area, working with finance, then I decided to
+                    start a business with 3D printing,
                     and finally, I discovered and fell in love with software development.
                 </p>
+                <h4 className="highlight-text">
+                    I learn quickly and I am willing to learn any new tool that is not already part of my knowledge!
+                </h4>
             </div>
             <img className="img-item" src={codeLamp} alt="Code Lamp" />
             <div className="about-item-right"></div>

@@ -19,6 +19,12 @@ const Skills = () => {
                     <ProgressBar label="Vue.js" targetProgress={75} />
                 </div>
                 <div className="skills-item col-lg-6 col-md-6 col-sm-12">
+                    <ProgressBar label="React.js" targetProgress={70} />
+                </div>
+                <div className="skills-item col-lg-6 col-md-6 col-sm-12">
+                    <ProgressBar label="Next.js" targetProgress={70} />
+                </div>
+                <div className="skills-item col-lg-6 col-md-6 col-sm-12">
                     <ProgressBar label="JavaScript" targetProgress={70} />
                 </div>
                 <div className="skills-item col-lg-6 col-md-6 col-sm-12">
@@ -28,10 +34,16 @@ const Skills = () => {
                     <ProgressBar label="SQL" targetProgress={65} />
                 </div>
                 <div className="skills-item col-lg-6 col-md-6 col-sm-12">
+                    <ProgressBar label="TypeScript" targetProgress={65} />
+                </div>
+                <div className="skills-item col-lg-6 col-md-6 col-sm-12">
                     <ProgressBar label="Python" targetProgress={60} />
                 </div>
                 <div className="skills-item col-lg-6 col-md-6 col-sm-12">
                     <ProgressBar label="Django" targetProgress={50} />
+                </div>
+                <div className="skills-item col-lg-6 col-md-6 col-sm-12">
+                    <ProgressBar label="Node.js" targetProgress={50} />
                 </div>
             </div>
         </div>

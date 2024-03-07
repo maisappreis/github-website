@@ -7,26 +7,30 @@ const Curriculum = props =>
             <div className="workexperience-area" id="workexperience">
                 <h3 className="title">WORK EXPERIENCE</h3>
                 <div className="curriculum-grid">
-                    <div className="curric-item border-right">
+                    <div className="border-right">
                         <h3 className="item-title text-right">Web Developer | 09/2022 - Present</h3>
                         <h4 className="item-text text-right highligth">Morning Star Consulting - Remote - Rio de Janeiro, RJ - Brazil</h4>
                         <div className="item-text text-right">
                             <ul className="list-area">
-                                <li>Design and implementation of user-friendly screens in web applications using Vue.js framework in the front-end.</li>
-                                <li>Development of APIs on the backend using the Django framework to handle front-end requests.</li>
+                                <li>Design and implementation of user-friendly screens in web applications using mainly Vue.js framework in the front-end.</li>
+                                <li>Experienced in creating front-end components, always focusing on quality, reuse and code maintenance.</li>
+                                <li>Developed RESTful APIs using Django and Python to facilitate communication between front-end applications and back-end systems.</li>
+                                <li>I documented API endpoints using tools like Swagger.</li>
+                                <li>Experienced with code versioning with GIT.</li>
                                 <li>Diagnose, resolve bugs, test and refactor web application codes.</li>
+                                <li>Reviewing source codes, fixing bugs and implementing improvements.</li>
                             </ul>
                         </div>
                     </div>
-                    <div className="curric-item blank"></div>
-                    <div className="curric-item border-right blank"></div>
-                    <div className="curric-item">
+                    <div></div>
+                    <div className="border-right"></div>
+                    <div className="border-left">
                         <h3 className="item-title text-left">Entrepreneur | 02/2018 - 09/2022</h3>
                         <h4 className="item-text text-left highligth">Axis 3D - 3D Printing Studio - Criciúma, SC - Brazil</h4>
                         <div className="item-text text-left">
                             <ul className="list-area">
                                 <li>Business administration, generating budgets, negotiating with customers and marketing activities. Also, 3D modeling and 3D printing.</li>
-                                <li>Starting my first projects with JavaScript, HTML, CSS, Vue.js and React. Also learning SQL and Git.</li>
+                                <li>Starting my first projects with JavaScript, HTML, CSS, Vue.js and React.js. Also learning SQL and Git.</li>
                             </ul>
                         </div>
                     </div>
@@ -46,9 +50,9 @@ const Curriculum = props =>
                             </button>
                         </a>
                     </div>
-                    <div className="flex-start blank"></div>
-                    <div className="flex-start border-right blank"></div>
-                    <div className="flex-start">
+                    <div className="flex-start hide"></div>
+                    <div className="flex-start border-right hide"></div>
+                    <div className="flex-start border-left">
                         <h3 className="item-title text-left">Data Analysis</h3>
                         <h4 className="item-text text-left highligth">Lato Sensu in Data Analysis at Descomplica College</h4>
                         <p className="item-text text-left">06/2022 - 02/2023</p>
@@ -70,9 +74,9 @@ const Curriculum = props =>
                             </button>
                         </a>
                     </div>
-                    <div className="flex-start blank"></div>
-                    <div className="flex-start border-right blank"></div>
-                    <div className="flex-start">
+                    <div className="flex-start hide"></div>
+                    <div className="flex-start border-right hide"></div>
+                    <div className="flex-start border-left">
                         <h3 className="item-title text-left">Bussiness Administration</h3>
                         <h4 className="item-text text-left highligth">Bachelor's in Bussiness Administration at State University of Santa Catarina</h4>
                         <p className="item-text text-left">08/2013 - 07/2017</p>
