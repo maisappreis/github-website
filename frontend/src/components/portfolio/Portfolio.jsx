@@ -18,7 +18,7 @@ const Portfolio = (props) => {
                             <a href="https://github.com/maisappreis/upfit-project" target="_blank"
                                 rel="noopener noreferrer" className="hover-box">
                                 <div className="hover-text">
-                                    An ERP System for a Gym Company
+                                    <p className="hover-title">An ERP System for a Gym Company</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
                                         <li>Vue.js</li>
@@ -34,7 +34,7 @@ const Portfolio = (props) => {
                             <a href="https://github.com/maisappreis/dental-clinic-web-system" target="_blank"
                                 rel="noopener noreferrer" className="hover-box">
                                 <div className="hover-text">
-                                    An ERP System for a Dental Clinic
+                                    <p className="hover-title">An ERP System for a Dental Clinic</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
                                         <li>Next.js</li>
@@ -51,7 +51,7 @@ const Portfolio = (props) => {
                             <a href="https://github.com/maisappreis/github-website" target="_blank"
                                 rel="noopener noreferrer" className="hover-box">
                                 <div className="hover-text">
-                                    My GitHub page
+                                    <p className="hover-title">My GitHub page</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
                                         <li>React.js</li>

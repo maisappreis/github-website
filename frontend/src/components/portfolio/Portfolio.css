@@ -1,122 +1,138 @@
 .projects-area {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 35px 0;
-    font-family: 'Marcellus', serif, sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+  font-family: 'Marcellus', serif, sans-serif;
 }
 
 .projects-overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
 }
 
 .projects-subtitle {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 
-    padding: 30px 0 8px;
-    position: relative;
-    z-index: 1;
+  padding: 30px 0 8px;
+  position: relative;
+  z-index: 1;
 }
 
 .projects-subtitle::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 9px;
-    width: 160px;
-    height: 14px;
-    transform: skew(-12deg) translateX(-50%);
-    background: #c897aa;
-    z-index: -1;
-  }
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 9px;
+  width: 160px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: #c897aa;
+  z-index: -1;
+}
 
 .projects-flex {
-    display: grid;
-    grid-template-columns: repeat(3, 31.5%);
-    grid-auto-rows: 20vw;
-    column-gap: 25px;
-    row-gap: 25px;
-    margin: 30px 0;
-    width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(3, 31.5%);
+  grid-auto-rows: 20vw;
+  column-gap: 25px;
+  row-gap: 25px;
+  margin: 30px 0;
+  width: 80vw;
 }
 
 .proj-container {
-    position: relative;
-    border: 10px solid #ccc;
-    overflow: hidden;
+  position: relative;
+  border: 10px solid #ccc;
+  overflow: hidden;
 }
 
 .proj-img {
-    width: 100%;
-    padding: 5px;
+  width: 100%;
+  padding: 5px;
 }
 
 #bg-image {
-    background-size: cover;
+  background-size: cover;
 }
 
 .hover-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(200, 151, 170, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 151, 170, 1);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    text-decoration: none;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+}
 
+.hover-text {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.hover-list {
+  font-size: 25px;
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.hr-line {
+  margin-top: 15px;
+  width: 100%;
+  border: 2px solid rgb(127, 0, 108);
+}
+
+.proj-container:hover .hover-box {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
   .hover-text {
-    margin: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: black;
+    font-size: 20px;
   }
 
   .hover-list {
-    font-size: 25px;
-    list-style-type: none;
-    margin-top: 10px;
-    padding: 0;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hover-title {
+    display: none;
   }
 
   .hr-line {
-    margin-top: 15px;
-    width: 10vw;
-    border: 2px solid rgb(127, 0, 108);
+    display: none;
+  }
 }
 
-  .proj-container:hover .hover-box {
-    opacity: 1;
-    cursor: pointer;
+@media screen and (max-width: 768px) {
+  .projects-flex {
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: 35vw;
   }
 
-  @media screen and (max-width: 768px) {
-    .projects-flex {
-        grid-template-columns: repeat(1, 100%);
-        grid-auto-rows: 35vw;
-    }
+  .proj-container {
+    height: 105%;
+  }
 
-    .proj-container {
-        height: 105%;
-    }
-
-    .hover-text {
-      font-size: 20px;
-    }
-
-    .hover-list {
-      font-size: 17px;
-    }
+  .hover-list {
+    font-size: 20px;
+  }
 }
