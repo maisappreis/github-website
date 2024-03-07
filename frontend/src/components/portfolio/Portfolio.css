@@ -42,16 +42,16 @@
     column-gap: 25px;
     row-gap: 25px;
     margin: 30px 0;
+    width: 80vw;
 }
 
 .proj-container {
     position: relative;
-    height: 100%;
     border: 10px solid #ccc;
+    overflow: hidden;
 }
 
 .proj-img {
-    height: 100%;
     width: 100%;
     padding: 5px;
 }
@@ -66,7 +66,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(200, 151, 170, 0.7);
+    background-color: rgba(200, 151, 170, 1);
 
     display: flex;
     justify-content: center;
@@ -84,6 +84,19 @@
     color: black;
   }
 
+  .hover-list {
+    font-size: 25px;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .hr-line {
+    margin-top: 15px;
+    width: 10vw;
+    border: 2px solid rgb(127, 0, 108);
+}
+
   .proj-container:hover .hover-box {
     opacity: 1;
     cursor: pointer;
@@ -93,5 +106,17 @@
     .projects-flex {
         grid-template-columns: repeat(1, 100%);
         grid-auto-rows: 35vw;
+    }
+
+    .proj-container {
+        height: 105%;
+    }
+
+    .hover-text {
+      font-size: 20px;
+    }
+
+    .hover-list {
+      font-size: 17px;
     }
 }

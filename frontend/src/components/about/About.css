@@ -51,6 +51,13 @@
     z-index: 2; 
 }
 
+.highlight-text {
+    text-align: right;
+    font-size: 23px;
+    margin: 25px 15vw 0 10vw;
+    z-index: 2; 
+}
+
 .img-item {
     height: 400px;
     width: 400px;
@@ -82,16 +89,9 @@
     .less-height {
         max-height: 300px;
     }
+
+    .about {
+        background-color: rgba(47, 0, 54, 0.9);
+        z-index: 1;
+    }
 }
-
-/* @media screen and (max-width: 1280px) {
-    .about {
-        padding: 50px 40px 50px 100px;
-    }
-} */
-
-/* @media screen and (max-width: 800px) {
-    .about {
-        padding: 50px 40px 50px 50px;
-    }
-} */

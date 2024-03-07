@@ -5,14 +5,13 @@ import ImgHome from "./ImgHome";
 import ColorButton from "../button/ColorButton";
 import TransparentButton from "../button/TransparentButton";
 
-
 const Home = props =>
     <div id="home" className="header-area">
         <section className="header-intro">
-            <ImgHome className="img" />
+            <ImgHome />
             <div className="header-content">
                 <h1 className="website-title">For a great web experience!</h1>
-                <hr className="hr-line"/>
+                <hr className="home-line"/>
                 <h4 className="subtitle-1">WEB DEVELOPER</h4>
                 <div className="button-area">
                     <ColorButton />

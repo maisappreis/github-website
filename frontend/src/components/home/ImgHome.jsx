@@ -5,7 +5,7 @@ import "./Home.css";
 
 const ImgHome = props => 
     <div className="img-home">
-        <img src={imgHome} alt="codes in a black background" />
+        <img className="image" src={imgHome} alt="codes in a black background" />
     </div>
 
 export default ImgHome;

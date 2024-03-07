@@ -37,17 +37,15 @@
     margin-top: 10px;
 }
 
-.img {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .img-home {
     height: 100vh;
 }
 
-.hr-line {
+.image {
+    height: 110%;
+}
+
+.home-line {
     margin: auto;
     width: 30vw;
     border: 2px solid white;

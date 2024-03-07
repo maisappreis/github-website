@@ -87,21 +87,18 @@
     font-size: 20px;
 }
 
-.curric-item-tex {
-    text-align: left;
-    margin-left: 30px;
-}
-
 .flex-end {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 15px 0;
 }
 
 .flex-start {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 15px 0;
 }
 
 .list-area {
@@ -144,5 +141,24 @@
     .text-left {
         padding-left: 15px;
         margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .curriculum-grid {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .border-right {
+        margin: 0 20px;
+    }
+
+    .border-left {
+        margin: 0 20px;
+        border-left: 3px solid #a0647c;
+    }
+
+    .hide {
+        display: none;
     }
 }
