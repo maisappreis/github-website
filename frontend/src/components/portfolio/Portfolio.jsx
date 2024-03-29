@@ -51,7 +51,7 @@ const Portfolio = (props) => {
                             <a href="https://github.com/maisappreis/github-website" target="_blank"
                                 rel="noopener noreferrer" className="hover-box">
                                 <div className="hover-text">
-                                    <p className="hover-title">My GitHub page</p>
+                                    <p className="hover-title">My GitHub Page</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
                                         <li>React.js</li>

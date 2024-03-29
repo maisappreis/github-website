@@ -12,13 +12,19 @@ const Curriculum = props =>
                         <h4 className="item-text text-right highligth">Morning Star Consulting - Remote - Rio de Janeiro, RJ - Brazil</h4>
                         <div className="item-text text-right">
                             <ul className="list-area">
-                                <li>Design and implementation of user-friendly screens in web applications using mainly Vue.js framework in the front-end.</li>
-                                <li>Experienced in creating front-end components, always focusing on quality, reuse and code maintenance.</li>
-                                <li>Developed RESTful APIs using Django and Python to facilitate communication between front-end applications and back-end systems.</li>
-                                <li>I documented API endpoints using tools like Swagger.</li>
-                                <li>Experienced with code versioning with GIT.</li>
-                                <li>Diagnose, resolve bugs, test and refactor web application codes.</li>
-                                <li>Reviewing source codes, fixing bugs and implementing improvements.</li>
+                                <li>&#9733; Worked on two systems development projects for the Brazilian state company Petrobrás.</li>
+                                <li>&#9733; Migrated an entire system from Vue.js 2 to Vue.js 3.</li>
+                                <li>&#9733; Replaced the Vuex dependency for Pinia throughout this same project.</li>
+                                <li>&#9733; Implemented Typescript in this project with Vue.js 3, and in meetings with the development team, I
+                                defended the use of Typescript and the migration from API Options to API Composition.</li>
+                                <li>&#9733; Designed and implemented user-friendly screens in web applications using mainly the Vue.js.</li>
+                                <li>&#9733; Experienced in creating front-end components, always focusing on quality, reuse and code maintenance.</li>
+                                <li>&#9733; Migrated an entire MongoDB database to a relational database (SQLite in development, and Postgres in production) using Python scripts.</li>
+                                <li>&#9733; Developed RESTful APIs using Django and Python to facilitate communication between front-end applications and back-end systems.</li>
+                                <li>&#9733; Reviewing source codes, fixing bugs and implementing improvements.</li>
+                                <li>&#9733; Diagnose, resolve bugs, test and refactor web application codes.</li>
+                                <li>&#9733; Documented API endpoints using tools like Swagger.</li>
+                                <li>&#9733; Experienced with code versioning with GIT.</li>
                             </ul>
                         </div>
                     </div>
@@ -29,8 +35,8 @@ const Curriculum = props =>
                         <h4 className="item-text text-left highligth">Axis 3D - 3D Printing Studio - Criciúma, SC - Brazil</h4>
                         <div className="item-text text-left">
                             <ul className="list-area">
-                                <li>Business administration, generating budgets, negotiating with customers and marketing activities. Also, 3D modeling and 3D printing.</li>
-                                <li>Starting my first projects with JavaScript, HTML, CSS, Vue.js and React.js. Also learning SQL and Git.</li>
+                                <li>&#9733; Business administration, generating budgets, negotiating with customers and marketing activities. Also, 3D modeling and 3D printing.</li>
+                                <li>&#9733; Starting my first projects with JavaScript, HTML, CSS, Vue.js and React.js. Also learning SQL and Git.</li>
                             </ul>
                         </div>
                     </div>
