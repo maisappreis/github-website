@@ -2,7 +2,7 @@ import React from "react";
 import "../../main/App.css";
 import "./Portfolio.css";
 import Gym from "../../assets/gym.png";
-import Website from "../../assets/website.png";
+import Django from "../../assets/django.png";
 import DentalClinic from "../../assets/dental-clinic.png";
 
 const Portfolio = (props) => {
@@ -15,49 +15,69 @@ const Portfolio = (props) => {
                         <div className="proj-container"
                         >
                             <img className="proj-img" src={Gym} alt="Gym System" />
-                            <a href="https://github.com/maisappreis/upfit-project" target="_blank"
-                                rel="noopener noreferrer" className="hover-box">
+                            <div className="hover-box">
                                 <div className="hover-text">
                                     <p className="hover-title">An ERP System for a Gym Company</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
-                                        <li>Vue.js</li>
-                                        <li>Electron</li>
-                                        <li>Django</li>
+                                        <li>
+                                            <a href="https://maisappreis.github.io/upfit-gym/" target="_blank"
+                                                rel="noopener noreferrer" >
+                                                Test the project
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/maisappreis/upfit-project" target="_blank"
+                                                rel="noopener noreferrer" >
+                                                See the code
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
-                            </a>
+                            </div>
+
                         </div>
                         <div className="proj-container"
                         >
                             <img className="proj-img" src={DentalClinic} alt="Lamp" />
-                            <a href="https://github.com/maisappreis/dental-clinic-web-system" target="_blank"
-                                rel="noopener noreferrer" className="hover-box">
+                            <div className="hover-box">
                                 <div className="hover-text">
                                     <p className="hover-title">An ERP System for a Dental Clinic</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
-                                        <li>Next.js</li>
-                                        <li>React.js</li>
-                                        <li>TypeScript</li>
-                                        <li>Django</li>
+                                        <li>
+                                            <a href="https://maisappreis.github.io/dental-clinic/" target="_blank"
+                                                rel="noopener noreferrer" >
+                                                Test the project
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/maisappreis/dental-clinic" target="_blank"
+                                                rel="noopener noreferrer" >
+                                                See the code
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         <div className="proj-container"
                         >
-                            <img className="proj-img" src={Website} alt="Lamp" />
-                            <a href="https://github.com/maisappreis/github-website" target="_blank"
-                                rel="noopener noreferrer" className="hover-box">
+                            <img className="proj-img" src={Django} alt="Lamp" />
+                            <div className="hover-box">
                                 <div className="hover-text">
-                                    <p className="hover-title">My GitHub Page</p>
+                                    <p className="hover-title">Django APIs for both Web Applications</p>
                                     <hr className="hr-line" />
                                     <ul className="hover-list">
-                                        <li>React.js</li>
+                                        <li>
+                                            <a href="https://github.com/maisappreis/django-APIs" target="_blank"
+                                                rel="noopener noreferrer" >
+                                                See the code
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>

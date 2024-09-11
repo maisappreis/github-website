@@ -11,14 +11,15 @@ const About = props =>
                 <h3 className="about-subtitle">ABOUT ME</h3>
                 <hr className="line"/>
                 <p className="about-text">
-                    About 2 years ago, I discovered the software development area and I was enchanted.
-                    Even though I had a degree in Business Administration, I made the decision to become a developer.
-                    For 5 months I dedicated myself full time to studying and training, for 12 to 15 hours a day, before
-                    getting my first job in this area. Since then, I have been working in this same company, learning more
-                    and more, and falling in love, mainly, with front-end development.
+                    Software Engineer passionate about modeling and solving problems by coding, constantly adapting
+                    to new environments, learning new technologies, and contributing to collaborative environments.
+                    I am committed to business objectives and have a strong ability to work as part of a team, both
+                    in Backend and Frontend development. I firmly believe in the importance of collaboration and
+                    mutual support between colleagues to achieve quality results and drive company success.
                 </p>
                 <h4 className="highlight-text">
-                    I am very dedicated to everything I do, I learn quickly and I am always willing to take on new challenges!
+                    New challenges and technologies are always more than welcome. <br />
+                    Keep coding!!
                 </h4>
             </div>
             <img className="img-item" src={codeLamp} alt="Code Lamp" />

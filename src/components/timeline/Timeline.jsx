@@ -16,7 +16,7 @@ const Curriculum = props =>
                                 <li>&#9733; Migrated an entire system from Vue.js 2 to Vue.js 3.</li>
                                 <li>&#9733; Replaced the Vuex dependency for Pinia throughout this same project.</li>
                                 <li>&#9733; Implemented Typescript in this project with Vue.js 3, and in meetings with the development team, I
-                                defended the use of Typescript and the migration from API Options to API Composition.</li>
+                                    defended the use of Typescript and the migration from API Options to API Composition.</li>
                                 <li>&#9733; Designed and implemented user-friendly screens in web applications using mainly the Vue.js.</li>
                                 <li>&#9733; Experienced in creating front-end components, always focusing on quality, reuse and code maintenance.</li>
                                 <li>&#9733; Migrated an entire MongoDB database to a relational database (SQLite in development, and Postgres in production) using Python scripts.</li>
@@ -45,14 +45,26 @@ const Curriculum = props =>
             <div className="education-area" id="education">
                 <h3 className="title">EDUCATION</h3>
                 <div className="curriculum-grid">
+                    <div className="flex-start border-right hide"></div>
+                    <div className="flex-start border-left">
+                        <h3 className="item-title text-left">Microsoft Certified</h3>
+                        <h4 className="item-text text-left highligth">Azure Fundamentals</h4>
+                        <p className="item-text text-left">07/2024 - Current</p>
+                        <a className="link-area" target="_blank" rel="noopener noreferrer"
+                            href="https://learn.microsoft.com/pt-br/users/maisapierinipreis-4177/credentials/1e639117d2ba788e">
+                            <button className="bnt color">
+                                See certificate
+                            </button>
+                        </a>
+                    </div>
                     <div className="flex-end border-right">
                         <h3 className="item-title text-right">Microsoft Certified</h3>
                         <h4 className="item-text text-right highligth">Power BI Data Analyst Associate</h4>
-                        <p className="item-text text-right">11/2023 - Present</p>
+                        <p className="item-text text-right">11/2023 - 11/2024</p>
                         <a className="link-area" target="_blank" rel="noopener noreferrer"
                             href="https://learn.microsoft.com/pt-br/users/maisapierinipreis-4177/credentials/23bd0e2e1d86834b">
                             <button className="bnt color">
-                                See certificate 
+                                See certificate
                             </button>
                         </a>
                     </div>
@@ -65,7 +77,7 @@ const Curriculum = props =>
                         <a className="link-area" target="_blank" rel="noopener noreferrer"
                             href="https://drive.google.com/file/d/19kfGpPeIVFdpw2qAjd9lqAhy8G9Bw_pR/view?usp=drive_link">
                             <button className="bnt color">
-                                See certificate 
+                                See certificate
                             </button>
                         </a>
                     </div>
@@ -76,7 +88,7 @@ const Curriculum = props =>
                         <a className="link-area" target="_blank" rel="noopener noreferrer"
                             href="https://drive.google.com/file/d/19htM8iJUn5fGy91Iz17kFtspE9Pa2HKT/view?usp=drive_link">
                             <button className="bnt color">
-                                See certificate 
+                                See certificate
                             </button>
                         </a>
                     </div>
@@ -89,7 +101,7 @@ const Curriculum = props =>
                         <a className="link-area" target="_blank" rel="noopener noreferrer"
                             href="https://drive.google.com/file/d/1CYtbULqZI5X5_3VvFfbjmKbt29E_-qiM/view?usp=drive_link">
                             <button className="bnt color">
-                                See certificate 
+                                See certificate
                             </button>
                         </a>
                     </div>
